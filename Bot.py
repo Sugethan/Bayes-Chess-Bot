@@ -145,7 +145,7 @@ def best_move(game, n_open, n_data, color):
         
         prob.append(pro)  
     
-    best = max(prob)             #Find the move with the best probability
+    best = max(prob)             #Finds the move with the best probability
     b_index = prob.index(best)
     print(legal[b_index])
 
